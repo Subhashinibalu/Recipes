@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg?auto=compress&cs=tinysrgb&w=600" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header -->
+
+    <header class="head-section">
+      <nav class="navbar py-3">
+        <div class="container-fluid">
+          <i class="fa-solid fa-plate-wheat icon text-start ms-3"></i>
+          <h1 class="webname ms-auto me-auto">RECIPE FINDER</h1>
+
+          <input
+            class="form-control me-2 searchbar w-25"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-light searchbutton" type="submit">
+            Search
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- section -->
+
+    <div class="container">
+      <!---container where all the div are placed-->
+      <div class="row mt-5">
+        <!--only one row where two div's which contains div's inside are present-->
+
+        <!--div where recipe image , name and time takes to cook will be dispalyed-->
+
+        <div
+          class="col-lg-4 col-sm-12 float-lg-start float-sm-none dish overflow-y-auto"
+        ></div>
+
+        <!--div which contains two div inside to display ingredients and recipe-->
+        <div class="col-lg-8 col-sm-12 p-5 mt-2 float-lg-end display">
+          <div class="row">
+            <div
+              class="col-12 gt-sm-5 mt-sm-3 mt-lg-3 ingredient overflow-y-auto"
+            >
+              <h5>Ingredients List:</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 mt-4 recipe overflow-y-auto">
+              <h5>Recipe:</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

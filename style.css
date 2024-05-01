@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+body{
+    font-family: "Quicksand", sans-serif !important;
+    background-image: url("https://img.freepik.com/free-photo/flat-lay-composition-mexican-food-with-copyspace_23-2148140347.jpg?t=st=1714548630~exp=1714552230~hmac=546ca5560f04c2f05b1ab75b52aa711ed82eaf5ee0c8296b4c4cf8eade950399&w=996") !important;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 10px;
+    
+}
+header{
+    
+    color:white;
+   
+}
+.icon{
+    font-size: 60px !important;
+}
+.webname{
+    font-size: 25px !important;
+    text-align: center;
+}
+.searchbar{
+    background-color: none;
+}
+.dish{
+    height: 500px;
+    
+    border-radius: 30px;
+}
+.display{
+    height: 500px;
+   
+    border-radius: 30px;
+    
+}
+
+.ingredient{
+    background-image: url("https://img.freepik.com/free-vector/flat-background-world-vegetarian-day_23-2149598232.jpg?size=626&ext=jpg&ga=GA1.1.937687561.1710832007&semt=ais") !important;
+    height: 130px;
+    border-radius: 20px;
+}
+.recipe{
+    background-image: url("https://img.freepik.com/free-vector/flat-background-world-vegetarian-day_23-2149598232.jpg?size=626&ext=jpg&ga=GA1.1.937687561.1710832007&semt=ais") !important;
+    height: 170px;
+    border-radius: 20px;
+}
